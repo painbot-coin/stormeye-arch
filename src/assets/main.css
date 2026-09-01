@@ -1,0 +1,28 @@
+#app {
+  width: 100%;
+  font-weight: normal;
+  position: relative;
+}
+
+/* Primary action buttons – construction accent (copper/terracotta) */
+.btn-primary,
+button[type="submit"] {
+  background: var(--color-cta);
+  color: #fff;
+}
+.btn-primary:hover,
+button[type="submit"]:hover {
+  background: var(--color-cta-hover);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
